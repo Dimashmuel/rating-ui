@@ -1,9 +1,18 @@
 const Rating = () => {
-  return (
+    const stars = Array.from({ length: 5 }, (_, i) => i + 1);
 
-      <div className="rating-container">
-        <h2>Rate Your Experience</h2>
-      </div>
+    return (
+
+        <div className='rating-container'>
+            <h2>Rate Your Experience</h2>
+            <div className='stars'>
+                {stars.map((star) => (
+                    <span key={star} className='star'>
+                        {'\u2605'}
+                    </span>
+                ))}
+            </div>
+        </div>
     );
 };
 

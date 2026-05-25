@@ -22,3 +22,17 @@ body {
     text-align: center;
     width: 400px;
 }
+
+.stars {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.star {
+    transition: color 0.2s ease-in-out;
+    color: #ccc;
+}
