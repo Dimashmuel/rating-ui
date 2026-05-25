@@ -36,3 +36,13 @@ body {
     transition: color 0.2s ease-in-out;
     color: #ccc;
 }
+
+.star.active {
+    color: gold;
+}
+
+.feedback {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+}
